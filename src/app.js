@@ -60,7 +60,7 @@ app.get('/weather',(req,res)=>{
 
 app.get('/about',(req,res)=>{
     res.render('About',{
-        title: 'About me',
+        title: 'About',
         name: 'Aditya'
     })
 })
