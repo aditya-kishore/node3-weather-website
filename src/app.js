@@ -65,6 +65,13 @@ app.get('/about',(req,res)=>{
     })
 })
 
+app.get('/help',(req,res)=>{
+    res.render('Help',{
+        title: 'Help',
+        name: 'Aditya'
+    })
+})
+
 app.get('*',(req,res)=>{
     res.render('404',{
         title:'404',
